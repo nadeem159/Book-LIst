@@ -80,8 +80,8 @@ UI.prototype.clearfiled = function () {
 document.getElementById('book-form').addEventListener('submit', function (e) {
     const title = document.getElementById('title').value,
         author = document.getElementById('author').value,
-        isbn = document.getElementById('isbn').value;
-        dateIssue = document.getElementById('dateIssue').value;
+        isbn = document.getElementById('isbn').value,
+        dateIssue = document.getElementById('dateIssue').value,
         price = document.getElementById('price').value;
 
     // Instantiate book
