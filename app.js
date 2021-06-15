@@ -112,6 +112,6 @@ document.getElementById('book-list').addEventListener('click',function(e)
 {
     ui = new UI();
     ui.deleteBook(e.target);
-    ui.showAlert('Booked Remove!','success')
+    ui.showAlert('Booked Remove!','success');
     e.preventDefault();
 })
